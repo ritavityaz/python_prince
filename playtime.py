@@ -14,7 +14,10 @@ list = ["abc","cde","fgh"]
 
 
 
+n = 42730603 * 2
+l = 75
+g = 4411529
+k = [1, 15, 20, 30, 40, 75]
 
-
-for position,y in enumerate(list):
-    print x, y
+for i in k:
+    print i, n*(l-i+1)/g
